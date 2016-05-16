@@ -1,9 +1,6 @@
 (function () {
     'use strict';
-
-    var app = angular.module('shared', ['blockUI','ui.router']);
-
-    app.config(['$stateProvider', '$urlRouterProvider','$urlMatcherFactoryProvider','blockUIConfig',
+     angular.module('shared').config(['$stateProvider', '$urlRouterProvider','$urlMatcherFactoryProvider','blockUIConfig',
         function ($stateProvider, $urlRouterProvider, $urlMatcherFactoryProvider, blockUIConfig) {
 
             // Reference: http://angular-ui.github.io/ui-router/site/#/api/ui.router.util.$urlMatcherFactory
@@ -14,22 +11,17 @@
             
             //
             // For any unmatched url, redirect to /state1
-            $urlRouterProvider.otherwise("/state1");
+            $urlRouterProvider.otherwise("/homepage");
             //
             // Now set up the states
             $stateProvider
-              .state('state1', {
+              .state('homepage', {
                 url: "/",
-                templateUrl: "partials/state1.html"
+                templateUrl: "resource/widgets/homepage.html"
               })
-              .state('state1.list', {
-                url: "/list",
-                templateUrl: "partials/state1.list.html",
-                controller: function($scope) {
-                  $scope.items = ["A", "List", "Of", "Items"];
-                }
-              })
-              .state('state2', {
+        }]);
+/*
+ * .state('state2', {
                 url: "/state2",
                 templateUrl: "partials/state2.html"
               })
@@ -40,8 +32,7 @@
                   $scope.things = ["A", "Set", "Of", "Things"];
                 }
               });
-        }]);
-
+ */
 
     // Reference: https://github.com/McNull/angular-block-ui
     function setupBlockUI(blockUIConfig) {
