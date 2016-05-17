@@ -11,14 +11,16 @@
             
             //
             // For any unmatched url, redirect to /state1
-            $urlRouterProvider.otherwise("/homepage");
+            $urlRouterProvider.otherwise("/index");
             //
             // Now set up the states
             $stateProvider
-              .state('homepage', {
-                url: "/",
-                templateUrl: "resource/widgets/homepage.html"
-              })
+              .state('index', {
+                url: '/index',
+                templateUrl: 'resources/widgets/homepage.html',
+                controller:'homeCtrl',
+                controllerAs:'vm'
+              });
         }]);
 /*
  * .state('state2', {

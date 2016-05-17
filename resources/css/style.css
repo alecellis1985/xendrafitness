@@ -68,12 +68,6 @@
 ## 1. Global Styles ## 
 ------------------------------------*/
 
-/* Third-Party Libraries */
-@import url("libraries/fonts/font-awesome.css");
-@import url("libraries/owl-carousel/owl.carousel.css");
-@import url("libraries/owl-carousel/owl.theme.css");
-@import url("libraries/animate/animate.min.css");
-
 body {
 	max-width: 1920px;
 	margin: 0 auto !important;

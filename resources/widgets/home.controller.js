@@ -1,8 +1,105 @@
-(function($)
-{
-	"use strict"
+(function(){
+    'use srtict';
+    angular.module('shared').controller('homeCtrl',homeCtrl);
+    homeCtrl.$inject = ['$timeout'];
+    
+    function homeCtrl($timeout){
+        
+        var support = undefined,
+		container = undefined,
+		header = undefined,
+		loader = undefined,
+		animEndEventNames = { 'WebkitAnimation' : 'webkitAnimationEnd', 'OAnimation' : 'oAnimationEnd', 'msAnimation' : 'MSAnimationEnd', 'animation' : 'animationend' },
+		// animation end event name
+		animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ];
+                
+        $timeout(function(){
+            support = { animations : Modernizr.cssanimations };
+            container = document.getElementById( 'ip-container' );
+            header = container.querySelector( 'header.ip-header' );
+            loader = new PathLoader( document.getElementById( 'ip-loader-circle' ) );
+        },600);
+        
 
-	$(".primary-navigation > .dropdown-menu").css({"display":"block","position":"relative"});
+	function init() {
+		var onEndInitialAnimation = function() {
+			if( support.animations ) {
+				this.removeEventListener( animEndEventName, onEndInitialAnimation );
+				startLoading();
+			}
+			else
+			{
+				classie.remove( container, 'loading' );
+				classie.add( container, 'loaded' );
+				//$(".loaded .ip-header").css("display", "none");
+				//window.removeEventListener( 'scroll', noscroll );
+			}
+		};
+
+		// disable scrolling
+		//window.addEventListener( 'scroll', noscroll );
+
+		// initial animation
+		classie.add( container, 'loading' );
+
+		if( support.animations ) {
+			container.addEventListener( animEndEventName, onEndInitialAnimation );
+		}
+		else {
+			onEndInitialAnimation();
+		}
+	}
+
+	function startLoading() {
+		// simulate loading something..
+		var simulationFn = function(instance) {
+			var progress = 0,
+				interval = setInterval( function() {
+					progress = Math.min( progress + Math.random() * 0.1, 1 );
+
+					instance.setProgress( progress );
+
+					// reached the end
+					if( progress === 1 ) {
+						classie.remove( container, 'loading' );
+						classie.add( container, 'loaded' );
+						clearInterval( interval );
+
+						/*var onEndHeaderAnimation = function(ev) {
+							if( support.animations ) {
+								if( ev.target !== header ) return;
+								this.removeEventListener( animEndEventName, onEndHeaderAnimation );
+							}
+
+							classie.add( document.body, 'layout-switch' );
+							window.removeEventListener( 'scroll', noscroll );
+						};
+
+						if( support.animations ) {
+							header.addEventListener( animEndEventName, onEndHeaderAnimation );
+						}
+						else {
+							onEndHeaderAnimation();
+						}*/
+					}
+				}, 150 );
+		};
+
+		loader.setProgressFn( simulationFn );
+	}
+	
+	function noscroll() {
+		window.scrollTo( 0, 0 );
+	}
+
+        //*******INIT ******//
+	
+        $timeout(function(){            
+            init();
+        },600);
+        
+        
+        $(".primary-navigation > .dropdown-menu").css({"display":"block","position":"relative"});
 
 	/*
 	$('[data-spy="scroll"]').each(function ()
@@ -292,15 +389,6 @@
 				event.preventDefault();
 			}
 		});
-		
-		/*var sliderCH = $('.slides-container').height();*/
-		/*var window_width = $(window).width();
-		if ( window_width < 1750 )
-		{
-			$(".menu-panel").addClass("sticky-navigation");
-		}
-		
-		// $(window).scrollTop($(window).scrollTop()+1);
 
 		/* Header 2 - Parallax Scrolling */
 		$('.header-2 .navbar-nav li a, .header-2 .logo-block a').bind('click', function(event)
@@ -573,5 +661,7 @@
 		$(".app-notification-inner").css("height", window_height + "px");
 	});
 	/* Event - Window Resize /- */
-
-})(jQuery);
+    }
+    
+    
+})();
