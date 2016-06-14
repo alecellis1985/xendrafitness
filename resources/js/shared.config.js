@@ -1,8 +1,14 @@
 (function () {
     'use strict';
-     angular.module('shared').config(['$stateProvider', '$urlRouterProvider','$urlMatcherFactoryProvider','blockUIConfig',
-        function ($stateProvider, $urlRouterProvider, $urlMatcherFactoryProvider, blockUIConfig) {
-
+     angular.module('shared').config(['$stateProvider', '$urlRouterProvider','$urlMatcherFactoryProvider','blockUIConfig', '$translateProvider',
+        function ($stateProvider, $urlRouterProvider, $urlMatcherFactoryProvider, blockUIConfig, $translateProvider) {
+        
+      
+        $translateProvider.translations('en', translationsEN);
+        $translateProvider.translations('es', translationsES);
+        $translateProvider.preferredLanguage('es');
+            
+            
             // Reference: http://angular-ui.github.io/ui-router/site/#/api/ui.router.util.$urlMatcherFactory
             $urlMatcherFactoryProvider.caseInsensitive(true);
             $urlMatcherFactoryProvider.strictMode(false);

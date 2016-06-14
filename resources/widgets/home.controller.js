@@ -1,9 +1,10 @@
 (function(){
     'use srtict';
     angular.module('shared').controller('homeCtrl',homeCtrl);
-    homeCtrl.$inject = ['$timeout'];
+    homeCtrl.$inject = ['$timeout', '$translate'];
     
-    function homeCtrl($timeout){
+    function homeCtrl($timeout, $translate){
+        var vm = this;
         
         var support = undefined,
 		container = undefined,
@@ -20,6 +21,9 @@
             loader = new PathLoader( document.getElementById( 'ip-loader-circle' ) );
         },600);
         
+        vm.changeLanguage = function (langKey) {
+            $translate.use(langKey);
+        };
 
 	function init() {
 		var onEndInitialAnimation = function() {
