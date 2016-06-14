@@ -7,7 +7,7 @@
         $translateProvider.translations('en', translationsEN);
         $translateProvider.translations('es', translationsES);
         $translateProvider.preferredLanguage('es');
-            
+        $translateProvider.useSanitizeValueStrategy('escape');
             
             // Reference: http://angular-ui.github.io/ui-router/site/#/api/ui.router.util.$urlMatcherFactory
             $urlMatcherFactoryProvider.caseInsensitive(true);

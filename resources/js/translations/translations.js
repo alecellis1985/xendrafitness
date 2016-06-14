@@ -5,7 +5,7 @@ var translationsEN = {
   },
   BUTTON_LANG_ES: 'Spanish',
   BUTTON_LANG_EN: 'English',
-  SEND:'Send'
+  SEND:'Send!'
 };
 
 var translationsES = {
@@ -15,7 +15,7 @@ var translationsES = {
   },
    BUTTON_LANG_ES: 'Español',
   BUTTON_LANG_EN: 'Inglés',
-  SEND:'Enviar'
+  SEND:'Enviar!'
 };
 
 
