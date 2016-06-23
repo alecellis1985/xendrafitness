@@ -28,7 +28,7 @@
                     
                     //
             
-            $urlRouterProvider.otherwise("/");
+            $urlRouterProvider.otherwise("/index");
         }]);
     /*
      * .state('state2', {
