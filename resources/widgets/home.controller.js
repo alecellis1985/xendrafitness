@@ -9,6 +9,8 @@
         vm.changeLanguage = function (langKey) {
             $translate.use(langKey);
         };
+        
+        vm.schedulerCalendar = [{appearTarget:'.events-list-block',effect:'animated fadeInLeft'},{appearTarget:'.event-calendar-block',effect:'animated fadeInRight'}];
 
         function init() {
 
@@ -36,42 +38,9 @@
         /* /-- Event - Document Ready */
         $(document).ready(function ($)
         {
-
-            /* Header 1 */
-            /*$('.content-box').each(function ()
-             {
-             var $this = $(this);
+            
              
-             $this.appear(function ()
-             {
-             $('.content-box-item').addClass('animated fadeInUp');
-             });
-             });*/
-
-            /* Scheduler Calendar */
-            /*$('.scheduler-calendar').each(function ()
-             {
-             var $this = $(this);
-             
-             $this.appear(function ()
-             {
-             $('.events-list-block').addClass('animated fadeInLeft');
-             $('.event-calendar-block').addClass('animated fadeInRight');
-             });
-             });*/
-
-            /* --3-- Home - Popular Programs */
-            /*$('.programs-timeline .section-title').each(function ()
-             {
-             var $this = $(this);
-             
-             $this.appear(function ()
-             {
-             $('.programs-timeline .section-header > .section-title').addClass('animated fadeInDown');
-             });
-             });
-             
-             $('.timeline-item.timeline-odd .timeline-panel').each(function ()
+            /* $('.timeline-item.timeline-odd .timeline-panel').each(function ()
              {
              var $this = $(this);
              
