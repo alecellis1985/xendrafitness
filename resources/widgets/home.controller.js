@@ -8,17 +8,12 @@
 
         var support = undefined,
                 container = undefined,
-                header = undefined,
-                loader = undefined,
-                animEndEventNames = {'WebkitAnimation': 'webkitAnimationEnd', 'OAnimation': 'oAnimationEnd', 'msAnimation': 'MSAnimationEnd', 'animation': 'animationend'},
-        // animation end event name
-        animEndEventName = animEndEventNames[ Modernizr.prefixed('animation') ];
+                header = undefined;
 
         $timeout(function () {
             support = {animations: Modernizr.cssanimations};
             container = document.getElementById('ip-container');
             header = container.querySelector('header.ip-header');
-            loader = new PathLoader(document.getElementById('ip-loader-circle'));
         }, 600);
 
         vm.changeLanguage = function (langKey) {
@@ -26,72 +21,7 @@
         };
 
         function init() {
-            var onEndInitialAnimation = function () {
-                if (support.animations) {
-                    this.removeEventListener(animEndEventName, onEndInitialAnimation);
-                    startLoading();
-                } else
-                {
-                    //classie.remove( container, 'loading' );
-                    //classie.add( container, 'loaded' );
-                    //$(".loaded .ip-header").css("display", "none");
-                    //window.removeEventListener( 'scroll', noscroll );
-                }
-            };
 
-            // disable scrolling
-            //window.addEventListener( 'scroll', noscroll );
-
-            // initial animation
-            //classie.add( container, 'loading' );
-
-            if (support.animations) {
-                container.addEventListener(animEndEventName, onEndInitialAnimation);
-            } else {
-                onEndInitialAnimation();
-            }
-        }
-
-        function startLoading() {
-            // simulate loading something..
-            var simulationFn = function (instance) {
-                var progress = 0,
-                        interval = setInterval(function () {
-                            progress = Math.min(progress + Math.random() * 0.1, 1);
-
-                            instance.setProgress(progress);
-
-                            // reached the end
-                            if (progress === 1) {
-                                //classie.remove( container, 'loading' );
-                                //classie.add( container, 'loaded' );
-                                clearInterval(interval);
-
-                                /*var onEndHeaderAnimation = function(ev) {
-                                 if( support.animations ) {
-                                 if( ev.target !== header ) return;
-                                 this.removeEventListener( animEndEventName, onEndHeaderAnimation );
-                                 }
-                                 
-                                 classie.add( document.body, 'layout-switch' );
-                                 window.removeEventListener( 'scroll', noscroll );
-                                 };
-                                 
-                                 if( support.animations ) {
-                                 header.addEventListener( animEndEventName, onEndHeaderAnimation );
-                                 }
-                                 else {
-                                 onEndHeaderAnimation();
-                                 }*/
-                            }
-                        }, 150);
-            };
-
-            loader.setProgressFn(simulationFn);
-        }
-
-        function noscroll() {
-            window.scrollTo(0, 0);
         }
 
         //*******INIT ******//
@@ -103,54 +33,11 @@
 
         $(".primary-navigation > .dropdown-menu").css({"display": "block", "position": "relative"});
 
-        /*
+        
          $('[data-spy="scroll"]').each(function ()
          {
-         var $spy = $(this).scrollspy('refresh');
+            var $spy = $(this).scrollspy('refresh');
          });
-         */
-
-        /* Event - Window Scroll */
-        $(window).scroll(function ()
-        {
-            var scroll = $(window).scrollTop();
-            var height = $(window).height();
-
-            /*** set sticky-navigation menu ***/
-            if (scroll < 50)
-            {
-                $('.primary-navigation li a').removeClass('bgtransparent');
-            }
-            if (scroll >= 145)
-            {
-                $('.header-1, .header-2, .header-4 .header-4-inner, .menu-style-5').addClass("sticky-navigation");
-            } else
-            {
-                $('.header-1, .header-2, .header-3 .menu-panel, .header-4 .header-4-inner, .menu-style-5').removeClass("sticky-navigation");
-                $('.header-3 .menu-panel').addClass("no-sticky");
-            }// set sticky-navigation menu - end
-
-            /*** set sticky-navigation menu ***/
-            if (scroll >= 600)
-            {
-                $('.header-3 .menu-panel').addClass("sticky-navigation");
-                $('.header-3 .menu-panel').removeClass("no-sticky");
-            } else
-            {
-                $('.header-3 .menu-panel').removeClass("sticky-navigation");
-                $('.header-3 .menu-panel').addClass("no-sticky");
-            }
-
-            /* Back to Top */
-            if ($(window).scrollTop() > 1000)
-            {
-                $("#back-to-top").fadeIn(1000);
-            } else
-            {
-                $("#back-to-top").fadeOut(1000);
-            }
-        });
-        /* Event - Window Scroll /- */
 
         /* Set-up Animation Effect */
 
@@ -178,7 +65,7 @@
         {
 
             /* Header 1 */
-            $('.content-box').each(function ()
+            /*$('.content-box').each(function ()
             {
                 var $this = $(this);
 
@@ -186,7 +73,7 @@
                 {
                     $('.content-box-item').addClass('animated fadeInUp');
                 });
-            });
+            });*/
 
             /* Header 2 */
             $('.content-box-style2').each(function ()
@@ -578,7 +465,74 @@
                 toggles.first().click();
             });
 
+            /* Content Box 1 */
+            var owl_cntbox = $("#owl-cntbox");
+            owl_cntbox.owlCarousel(
+                    {
+                        itemsCustom: [
+                            [0, 1],
+                            [450, 1],
+                            [600, 2],
+                            [700, 3],
+                            [1000, 4],
+                            [1200, 4],
+                            [1400, 4],
+                            [1600, 4],
+                            [1900, 4]
+                        ]
+                    });
 
+            /* Content Box 2 */
+            var owl_cntbox2 = $("#owl-cntbox-style2");
+            owl_cntbox2.owlCarousel(
+                    {
+                        itemsCustom: [
+                            [0, 1],
+                            [450, 1],
+                            [600, 2],
+                            [700, 3],
+                            [1000, 4],
+                            [1200, 4],
+                            [1400, 4],
+                            [1600, 4],
+                            [1900, 4]
+                        ]
+                    });
+
+            /* Content Box 2 */
+            var owl_cntbox3 = $("#owl-cntbox-trainer");
+            owl_cntbox3.owlCarousel(
+                    {
+                        pagination: false,
+                        navigation: true,
+                        itemsCustom: [
+                            [0, 1],
+                            [480, 2],
+                            [600, 2],
+                            [700, 3],
+                            [992, 3],
+                            [1450, 3]
+                        ]
+                    });
+
+            /* Training Programs */
+            var owl_training_programs = $("#owl-training-programs");
+            owl_training_programs.owlCarousel(
+                    {
+                        navigation: true, // Show next and prev buttons
+                        pagination: false,
+                        itemsCustom: [
+                            [0, 1],
+                            [450, 1],
+                            [600, 2],
+                            [700, 3],
+                            [1000, 4],
+                            [1200, 4],
+                            [1400, 4],
+                            [1600, 4],
+                            [1900, 4]
+                        ]
+                    });
 
             /* Css class in Menu */
             $('.primary-navigation .navbar-nav > li a, .primary-navigation .dropdown-menu li a').html(function (i, html)
