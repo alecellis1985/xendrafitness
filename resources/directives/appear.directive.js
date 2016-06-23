@@ -1,9 +1,9 @@
 (function () {
     'use strict';
     //use: appear-target="pepe" effect="debounce" this will happen when current element where direcive is used is seen
-    angular.module('shared').directive('appearTarget', appear);
+    angular.module('shared').directive('appearTarget', appearTarget);
 
-    function appear() {
+    function appearTarget() {
         var directive = {
             link: link,
             scope: {
@@ -20,4 +20,4 @@
             });
         }
     }
-}());
+})();

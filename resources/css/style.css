@@ -636,24 +636,24 @@ iframe {
 .header-3 .flex-direction-nav .flex-prev,
 .slider-style-1 .flex-direction-nav .flex-prev,
 .header-4 .flex-prev { 
-	background-image: url("../images/header/header-1/slider-arrows/left_arrow_active.PNG"); 
+	background-image: url("../images/header/header-1/left_arrow_active.PNG"); 
 }
 
 .slide-next, 
 .header-3 .flex-direction-nav .flex-next,
 .slider-style-1 .flex-direction-nav .flex-next,
 .header-4 .flex-next {
-	background-image: url("../images/header/header-1/slider-arrows/right_arrow_active.PNG"); 
+	background-image: url("../images/header/header-1/right_arrow_active.PNG"); 
 }
 
 .slide-prev:hover, 
 .header-3 .flex-direction-nav .flex-prev:hover { 
-	background-image: url("../images/header/header-1/slider-arrows/left_arrow_disabled.PNG"); 
+	background-image: url("../images/header/header-1/left_arrow_disabled.PNG"); 
 }
 
 .slide-next:hover, 
 .header-3 .flex-direction-nav .flex-next:hover { 
-	background-image: url("../images/header/header-1/slider-arrows/right_arrow_disabled.PNG"); 
+	background-image: url("../images/header/header-1/right_arrow_disabled.PNG"); 
 }
 
 /* sticky-navigation Navigation */
@@ -1034,20 +1034,20 @@ iframe {
 
 .slider-style-2 .photos-slider .slide-prev,
 .slider-style-2 .flex-prev { 
-	background-image: url("../images/header/header-1/slider-arrows/left_top_arrow_active.png"); 
+	background-image: url("../images/header/header-1/left_top_arrow_active.png"); 
 }
 
 .slider-style-2 .photos-slider .slide-next,
 .slider-style-2 .flex-next {
-	background-image: url("../images/header/header-1/slider-arrows/right_bottom_arrow_active.png");
+	background-image: url("../images/header/header-1/right_bottom_arrow_active.png");
 }
 
 .slider-style-2 .photos-slider .slide-prev:hover { 
-	background-image: url("../images/header/header-1/slider-arrows/top-arrow-disabled.png");
+	background-image: url("../images/header/header-1/top-arrow-disabled.png");
 }
 
 .slider-style-2 .photos-slider .slide-next:hover { 
-	background-image: url("../images/header/header-1/slider-arrows/bottom-arrow-disabled.png"); 
+	background-image: url("../images/header/header-1/bottom-arrow-disabled.png"); 
 }
 
 .slider-style-2 .flex-control-paging { 
