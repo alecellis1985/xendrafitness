@@ -6432,3 +6432,12 @@ html[xmlns] .slides {
 .navbar-collapse .navbar-nav .dropdown.blog-dropdown > a  {
 	font-size: 18px;
 }
+.translation{
+    padding-left:10px; 
+}
+
+.translation >span{
+    font-size: 11px;
+    top: 3px;
+    position: relative;
+}
