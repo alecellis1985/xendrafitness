@@ -10,10 +10,10 @@
 
 /* Styling Next and Prev buttons */
 .owl-theme .owl-controls .owl-buttons div:first-of-type{
-	background-image: url("../../images/header/header-1/left_arrow_active.png");
+	background-image: url("../../img/header/header-1/left_arrow_active.PNG");
 }
 .owl-theme .owl-controls .owl-buttons div:last-of-type{	
-	background-image: url("../../images/header/header-1/right_arrow_active.png");
+	background-image: url("../../img/header/header-1/right_arrow_active.PNG");
 }
 .owl-theme .owl-controls .owl-buttons div:first-of-type:hover {
 	background-image: url("../../images/header/header-1/left_arrow_disabled.png");

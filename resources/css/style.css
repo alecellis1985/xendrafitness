@@ -174,79 +174,79 @@ iframe {
 }
 
 .call-us-green-icon {
-	background-image: url("../images/header/header-2/phone.PNG");
+	background-image: url("../img/header/header-2/phone.PNG");
 }
 
 .location-pin-green-icon {
-	background-image: url("../images/header/header-2/pin.PNG");
+	background-image: url("../img/header/header-2/pin.PNG");
 }
 
 .email-green-icon {
-	background-image: url("../images/header/header-2/plane.PNG");
+	background-image: url("../img/header/header-2/plane.PNG");
 }
 
 .facebook-green-icon {
-	background-image: url("../images/header/header-2/facebook.PNG"); 
+	background-image: url("../img/header/header-2/facebook.PNG"); 
 }
 
 .google-green-icon {
-	background-image: url("../images/header/header-2/google.PNG");
+	background-image: url("../img/header/header-2/google.PNG");
 }
 
 .twitter-green-icon {
-	background-image: url("../images/header/header-2/twitter.PNG");
+	background-image: url("../img/header/header-2/twitter.PNG");
 }
 
 .link-green-icon {
-	background-image: url("../images/single_trainer/link.PNG");
+	background-image: url("../img/single_trainer/link.PNG");
 }
 
 .bubble-green-icon {
-	background-image: url("../images/single_trainer/bubble.PNG");
+	background-image: url("../img/single_trainer/bubble.PNG");
 }
 
 .call-us-black-icon {
-	background-image: url("../images/header/header-3/phone.PNG");
+	background-image: url("../img/header/header-3/phone.PNG");
 }
 
 .location-pin-black-icon {
-	background-image: url("../images/header/header-3/pin.PNG");
+	background-image: url("../img/header/header-3/pin.PNG");
 }
 
 .email-black-icon {
-	background-image: url("../images/header/header-3/plane.PNG");
+	background-image: url("../img/header/header-3/plane.PNG");
 }
 
 .facebook-white-icon {
-	background-image: url("../images/header/header-3/facebook.PNG");
+	background-image: url("../img/header/header-3/facebook.PNG");
 }
 
 .google-white-icon {
-	background-image: url("../images/header/header-3/google.PNG");
+	background-image: url("../img/header/header-3/google.PNG");
 }
 
 .twitter-white-icon {
-	background-image: url("../images/header/header-3/twitter.PNG");
+	background-image: url("../img/header/header-3/twitter.PNG");
 }
 
 .icon-fire {
-	list-style-image: url("../images/price-table/fire.PNG");
+	list-style-image: url("../img/price-table/fire.PNG");
 }
 
 .icon-star {
-	list-style-image: url("../images/price-table/star.PNG");
+	list-style-image: url("../img/price-table/star.PNG");
 }
 
 .icon-clock {
-	list-style-image: url("../images/price-table/clock.PNG");
+	list-style-image: url("../img/price-table/clock.PNG");
 }
 
 .icon-circle {
-	list-style-image: url("../images/price-table/circle.PNG");
+	list-style-image: url("../img/price-table/circle.PNG");
 }
 
 .phone-icon {
-	background-image: url("../images/header/header-4/headphones.PNG"); 
+	background-image: url("../img/header/header-4/headphones.PNG"); 
 	float: left; 
 	background-repeat: no-repeat; 
 	display: inline-block; 
@@ -265,11 +265,11 @@ iframe {
 }
 
 .gplay-app-icon {
-	background-image: url("../images/header/header-4/gplay-app-icon.png");
+	background-image: url("../img/header/header-4/gplay-app-icon.png");
 }
 
 .mac-app-icon {
-	background-image: url("../images/header/header-4/mac-app-icon.png");
+	background-image: url("../img/header/header-4/mac-app-icon.png");
 }
 
 .shoes-icon {
@@ -278,7 +278,7 @@ iframe {
 	margin-right: 10px; 
 	display: inline-block; 
 	background-repeat: no-repeat; 
-	background-image: url("../images/single_trainer/sneaker.PNG"); 
+	background-image: url("../img/single_trainer/sneaker.PNG"); 
 }
 
 /* Overlay */
@@ -532,7 +532,7 @@ iframe {
 .logo-left-block { 
 	float: left; 
 	width: 27.1%; 
-	background-image: url("../images/header/header-1/logo-left.png"); 
+	background-image: url("../img/header/header-1/logo-left.png"); 
 	background-size: auto 70px; 
 	background-position: right center; 
 	z-index: 3; 
@@ -553,7 +553,7 @@ iframe {
 	float: right; 
 	width: 61.8%; 
 	z-index: 3; 
-	background-image: url("../images/header/header-1/menu-block.png"); 
+	background-image: url("../img/header/header-1/menu-block.png"); 
 	background-size: auto 70px; 
 	background-position: left center; 
 }
@@ -578,7 +578,7 @@ iframe {
 }
 
 #slideit {
-    background-image: url("../images/mail.png");
+    background-image: url("../img/mail.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 50px auto;
@@ -636,24 +636,24 @@ iframe {
 .header-3 .flex-direction-nav .flex-prev,
 .slider-style-1 .flex-direction-nav .flex-prev,
 .header-4 .flex-prev { 
-	background-image: url("../images/header/header-1/left_arrow_active.PNG"); 
+	background-image: url("../img/header/header-1/left_arrow_active.PNG"); 
 }
 
 .slide-next, 
 .header-3 .flex-direction-nav .flex-next,
 .slider-style-1 .flex-direction-nav .flex-next,
 .header-4 .flex-next {
-	background-image: url("../images/header/header-1/right_arrow_active.PNG"); 
+	background-image: url("../img/header/header-1/right_arrow_active.PNG"); 
 }
 
 .slide-prev:hover, 
 .header-3 .flex-direction-nav .flex-prev:hover { 
-	background-image: url("../images/header/header-1/left_arrow_disabled.PNG"); 
+	background-image: url("../img/header/header-1/left_arrow_disabled.PNG"); 
 }
 
 .slide-next:hover, 
 .header-3 .flex-direction-nav .flex-next:hover { 
-	background-image: url("../images/header/header-1/right_arrow_disabled.PNG"); 
+	background-image: url("../img/header/header-1/right_arrow_disabled.PNG"); 
 }
 
 /* sticky-navigation Navigation */
@@ -1034,20 +1034,20 @@ iframe {
 
 .slider-style-2 .photos-slider .slide-prev,
 .slider-style-2 .flex-prev { 
-	background-image: url("../images/header/header-1/left_top_arrow_active.png"); 
+	background-image: url("../img/header/header-1/left_top_arrow_active.png"); 
 }
 
 .slider-style-2 .photos-slider .slide-next,
 .slider-style-2 .flex-next {
-	background-image: url("../images/header/header-1/right_bottom_arrow_active.png");
+	background-image: url("../img/header/header-1/right_bottom_arrow_active.png");
 }
 
 .slider-style-2 .photos-slider .slide-prev:hover { 
-	background-image: url("../images/header/header-1/top-arrow-disabled.png");
+	background-image: url("../img/header/header-1/top-arrow-disabled.png");
 }
 
 .slider-style-2 .photos-slider .slide-next:hover { 
-	background-image: url("../images/header/header-1/bottom-arrow-disabled.png"); 
+	background-image: url("../img/header/header-1/bottom-arrow-disabled.png"); 
 }
 
 .slider-style-2 .flex-control-paging { 
@@ -1184,7 +1184,7 @@ iframe {
 .content-box-style2 .content-box-item:hover { 
 	background-repeat: no-repeat; 
 	background-size: 100% 100%; 
-	background-image: url("../images/header/header-2/content-box-item-bg.png");
+	background-image: url("../img/header/header-2/content-box-item-bg.png");
 }
 
 .content-box-style2 .content-box-description { 
@@ -1325,7 +1325,7 @@ iframe {
 .header3-thumbnail-carousel .flex-active { 
 	opacity: 1; 
 	border: 2px solid #c8e600; 
-	background-image: url("../images/header/header-3/transparent-layer.png"); 
+	background-image: url("../img/header/header-3/transparent-layer.png"); 
 }
 
 /* ## 2.4.2. Slider ## */
@@ -1426,7 +1426,7 @@ iframe {
 
 .header-3 .menu-top-shape { 
 	height: 110px; 
-	background-image: url("../images/header/header-3/menu-left-bg.png"); 
+	background-image: url("../img/header/header-3/menu-left-bg.png"); 
 	background-repeat: no-repeat; 
 }
 
@@ -1438,7 +1438,7 @@ iframe {
 
 .header-3 .menu-bottom-shape { 
 	height: 853px; 
-	background-image: url("../images/header/header-3/menu-bottom-bg.png"); 
+	background-image: url("../img/header/header-3/menu-bottom-bg.png"); 
 	background-repeat: no-repeat; 
 	padding: 79px 0 0; 
 }
@@ -2060,12 +2060,12 @@ iframe {
 }
 
 .header-5 .slides-navigation .slide-prev:before { 
-	background-image: url("../images/header/header-5/polygon-icon.png"); 
+	background-image: url("../img/header/header-5/polygon-icon.png"); 
 	display: inline-block; 
 }
 
 .header-5 .slides-navigation .slide-next:after { 
-	background-image: url("../images/header/header-5/polygon-icon.png"); 
+	background-image: url("../img/header/header-5/polygon-icon.png"); 
 	display: inline-block; 
 }
 
@@ -2469,12 +2469,12 @@ iframe {
 }
 
 .section-header-left { 
-	background-image: url("../images/section-header/header-left-bg.png"); 
+	background-image: url("../img/section-header/header-left-bg.png"); 
 	float: left;
 }
 
 .section-header-right { 
-	background-image: url("../images/section-header/header-right-bg.png"); 
+	background-image: url("../img/section-header/header-right-bg.png"); 
 	float: right; 
 }
 
@@ -2570,7 +2570,7 @@ iframe {
 	overflow: hidden; 
 	background-color: #080714; 
 	color:#fff; 
-	background-image: url("../images/timeline/bg.jpg"); 
+	background-image: url("../img/timeline/bg.jpg"); 
 	background-repeat: no-repeat;
 	background-position: center 124px;
 }
@@ -2584,7 +2584,7 @@ iframe {
 }
 
 .programs-timeline:after {
-	background-image: url("../images/timeline/after-timeline.png");
+	background-image: url("../img/timeline/after-timeline.png");
 	background-repeat: no-repeat; 
 	height: 81px; 
 	width: 100%;
@@ -2612,7 +2612,7 @@ iframe {
 }
 
 .timeline:before { 
-	background-image: url("../images/timeline/timeline-start.png"); 
+	background-image: url("../img/timeline/timeline-start.png"); 
 	background-repeat: no-repeat; 
 	content: " "; 
 	height: 22px; 
@@ -2717,12 +2717,12 @@ iframe {
 }
 
 .timeline-odd .timeline-panel { 
-	background-image:url("../images/timeline/timeline-odd.png");
+	background-image:url("../img/timeline/timeline-odd.png");
 	padding-right: 47px;
 }
 
 .timeline-even .timeline-panel { 
-	background-image:url("../images/timeline/timeline-even.png"); 
+	background-image:url("../img/timeline/timeline-even.png"); 
 	padding-left: 47px;
 }
 
@@ -2786,12 +2786,12 @@ iframe {
 }
 
 .timeline-odd .timeline-badge { 
-	background-image: url("../images/timeline/timeline-icon-odd.png"); 
+	background-image: url("../img/timeline/timeline-icon-odd.png"); 
 	background-repeat: no-repeat;
 }
 
 .timeline-even .timeline-badge { 
-	background-image: url("../images/timeline/timeline-icon-even.png");
+	background-image: url("../img/timeline/timeline-icon-even.png");
 	background-repeat: no-repeat;
 }
 
@@ -2816,7 +2816,7 @@ iframe {
 }
 
 .scheduler-calendar:after { 
-	background-image: url("../images/calendar/calendar-after.png");
+	background-image: url("../img/calendar/calendar-after.png");
 	background-repeat: no-repeat;
 	height: 72px; 
 	width: 100%; 
@@ -3279,11 +3279,11 @@ iframe {
 }
 
 .programs-info .calendar-icon { 
-	background-image: url("../images/classes/calendar.PNG");
+	background-image: url("../img/classes/calendar.PNG");
 }
 
 .programs-info .trainer-icon { 
-	background-image: url("../images/classes/trainer.PNG");
+	background-image: url("../img/classes/trainer.PNG");
 }
 
 /* Programs Rate */
@@ -3367,7 +3367,7 @@ iframe {
 	color:#fff; 
 	position: static; 
 	min-height: 753px;
-	background-image:url("../images/quotes/bg.jpg"); 
+	background-image:url("../img/quotes/bg.jpg"); 
 }
 
 .quotes-inner { 
@@ -3448,7 +3448,7 @@ iframe {
 	background-repeat: no-repeat; 
 	background-size: cover; 
 	color:#fff;
-	background-image:url("../images/trainers/bg.jpg"); 
+	background-image:url("../img/trainers/bg.jpg"); 
 	background-color : #fff; 
 	min-height : 900px; 
 	position: static; 
@@ -3670,11 +3670,11 @@ iframe {
 }
 
 .training-type i { 
-	background-image: url("../images/trainers/weight.PNG");
+	background-image: url("../img/trainers/weight.PNG");
 }
 
 .training-days i { 
-	background-image: url("../images/trainers/calendar.PNG");
+	background-image: url("../img/trainers/calendar.PNG");
 }
 
 .trainer-detail h4 { 
@@ -3828,7 +3828,7 @@ iframe {
 }
 
 .plan-pricing:before {
-	background-image: url("../images/price-table/icon.png"); 
+	background-image: url("../img/price-table/icon.png"); 
 	background-repeat: no-repeat; 
 	content: ""; 
 	display: inline-block; 
@@ -3958,19 +3958,19 @@ iframe {
 }
 
 .plan-item:hover .icon-fire { 
-	list-style-image: url("../images/price-table/fire_blue.PNG");
+	list-style-image: url("../img/price-table/fire_blue.PNG");
 }
 
 .plan-item:hover .icon-star { 
-	list-style-image: url("../images/price-table/star_blue.PNG");
+	list-style-image: url("../img/price-table/star_blue.PNG");
 }
 
 .plan-item:hover .icon-clock { 
-	list-style-image: url("../images/price-table/clock_blue.PNG");
+	list-style-image: url("../img/price-table/clock_blue.PNG");
 }
 
 .plan-item:hover .icon-circle {
-	list-style-image: url("../images/price-table/circle_blue.PNG");
+	list-style-image: url("../img/price-table/circle_blue.PNG");
 }
 
 /* plan active effects */
@@ -4012,19 +4012,19 @@ iframe {
 }
 
 .plan-item.active .icon-fire {
-	list-style-image: url("../images/price-table/fire_blue.PNG");	
+	list-style-image: url("../img/price-table/fire_blue.PNG");	
 }
 
 .plan-item.active .icon-star { 
-	list-style-image: url("../images/price-table/star_blue.PNG"); 
+	list-style-image: url("../img/price-table/star_blue.PNG"); 
 }
 
 .plan-item.active .icon-clock {
-	list-style-image: url("../images/price-table/clock_blue.PNG");
+	list-style-image: url("../img/price-table/clock_blue.PNG");
 }
 
 .plan-item.active .icon-circle { 
-	list-style-image: url("../images/price-table/circle_blue.PNG");
+	list-style-image: url("../img/price-table/circle_blue.PNG");
 }
 
 /*------------------------------------
@@ -4039,7 +4039,7 @@ iframe {
 .contact:after { 
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	background-image:url("../images/contact/contact-after.png");
+	background-image:url("../img/contact/contact-after.png");
 }
 
 .contact .section-title {
@@ -4060,11 +4060,11 @@ iframe {
 }
 
 .contact-left { 
-	background-image: url("../images/contact/contact-left.png");
+	background-image: url("../img/contact/contact-left.png");
 }
 
 .contact-right { 
-	background-image: url("../images/contact/contact-right.png");
+	background-image: url("../img/contact/contact-right.png");
 }
 
 .contact-center { 
@@ -4142,15 +4142,15 @@ iframe {
 }
 
 .contact-detail .address:before {
-	background-image: url("../images/contact/map-icon.png");
+	background-image: url("../img/contact/map-icon.png");
 }
 
 .contact-detail .email:before { 
-	background-image: url("../images/contact/email-icon.png");
+	background-image: url("../img/contact/email-icon.png");
 }
 
 .contact-detail .phone:before { 
-	background-image: url("../images/contact/call-icon.png");
+	background-image: url("../img/contact/call-icon.png");
 }
 
 .address { 
@@ -4171,7 +4171,7 @@ iframe {
 }
 
 .contact-center:after {
-	background-image: url("../images/contact/contact-after.png");
+	background-image: url("../img/contact/contact-after.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%; 
 	bottom: -80px; 
@@ -4481,7 +4481,7 @@ iframe {
 	font-size: 18px; 
 	color: #fff; 
 	width: 100%; 
-	background-image: url(images/single_trainer/trainer-left-inner-bg.png); 
+	background-image: url(../img/single_trainer/trainer-left-inner-bg.png); 
 	background-repeat: no-repeat; 
 	background-size: 100% 100%;
 }
@@ -4502,7 +4502,7 @@ iframe {
 	position: absolute; 
 	content: ""; 
 	right: -200px; 
-	background-image: url(images/single_trainer/left-bg.png);
+	background-image: url(../img/single_trainer/left-bg.png);
 	background-repeat: no-repeat; 
 	background-size: 100% 100%; 
 	width:200px;
@@ -4519,7 +4519,7 @@ iframe {
 	position: absolute; 
 	content: ""; 
 	left: -200px; 
-	background-image: url(images/single_trainer/right-bg.png); 
+	background-image: url(../img/single_trainer/right-bg.png); 
 	background-repeat: no-repeat; 
 	background-size: 100% 100%; 
 	width:200px; 
@@ -4538,7 +4538,7 @@ iframe {
 .footer-section { 
 	color: #fff; 
 	min-height: 755px; 
-	background-image: url("../images/footer/footer-1/bg.jpg"); 
+	background-image: url("../img/footer/footer-1/bg.jpg"); 
 	background-repeat: no-repeat; 
 	background-size: cover; 
 }
@@ -4594,7 +4594,7 @@ iframe {
 ------------------------------------*/
 
 .footer-2 { 
-	background-image: url("../images/footer/footer-2/bg.jpg"); 
+	background-image: url("../img/footer/footer-2/bg.jpg"); 
 	background-repeat: no-repeat; 
 	background-size: 100% 100%;
 }
@@ -4734,12 +4734,12 @@ iframe {
 
 .fb-icon { 
 	width: 100px; 
-	background-image: url("../images/footer/footer-2/fb-icon.png");
+	background-image: url("../img/footer/footer-2/fb-icon.png");
 }
 
 .tweet-icon { 
 	width: 120px; 
-	background-image: url("../images/footer/footer-2/tweet-icon.png");
+	background-image: url("../img/footer/footer-2/tweet-icon.png");
 }
 
 .footer-2 .copyright-notice { 
@@ -4767,7 +4767,7 @@ iframe {
 .footer-3 { 
 	text-align: center; 
 	font-weight: 300; 
-	background-image: url("../images/footer/footer-3/bg.jpg"); 
+	background-image: url("../img/footer/footer-3/bg.jpg"); 
 	background-repeat: no-repeat; 
 	background-size: 100% 100%; 
 }
@@ -4862,31 +4862,31 @@ iframe {
 }
 
 .back-to-top i { 
-	background-image: url("../images/footer/footer-3/top.PNG"); 
+	background-image: url("../img/footer/footer-3/top.PNG"); 
 }
 
 .grid-icon { 
-	background-image: url("../images/footer/footer-3/grid.PNG");
+	background-image: url("../img/footer/footer-3/grid.PNG");
 }
 
 .expand-icon { 
-	background-image: url("../images/footer/footer-3/expand.PNG");
+	background-image: url("../img/footer/footer-3/expand.PNG");
 }
 
 .search-icon { 
-	background-image: url("../images/footer/footer-3/search.PNG"); 
+	background-image: url("../img/footer/footer-3/search.PNG"); 
 }
 
 .message-icon {
-	background-image: url("../images/footer/footer-3/message.PNG");
+	background-image: url("../img/footer/footer-3/message.PNG");
 }
 
 .profile-icon {
-	background-image: url("../images/footer/footer-3/profile.PNG");
+	background-image: url("../img/footer/footer-3/profile.PNG");
 }
 
 .share-icon {
-	background-image: url("../images/footer/footer-3/share.PNG");
+	background-image: url("../img/footer/footer-3/share.PNG");
 }
 
 /* ########################################### Footer Versions -// ########################################### */
@@ -4939,20 +4939,20 @@ iframe {
 /* Widgets >> Faqs */
 
 .widget_faqs .widget_icon { 
-	background-image: url("../images/footer/footer-1/phone.PNG");
+	background-image: url("../img/footer/footer-1/phone.PNG");
 }
 
 /* Widgets >> Special Offers! */
 
 .widget_special_offers .widget_icon { 
-	background-image: url("../images/footer/footer-1/offer.png");
+	background-image: url("../img/footer/footer-1/offer.png");
 }
 
 .widget_special_offers .slide-content { 
 	position: absolute; 
 	right: 7px;
 	top: -10px;
-	background-image: url("../images/footer/footer-1/offer-badges.png");
+	background-image: url("../img/footer/footer-1/offer-badges.png");
 	width: 81px; 
 	height:222px;
 	background-repeat: no-repeat;
@@ -5013,7 +5013,7 @@ iframe {
 /* Widgets >> Flickr Photos */
 
 .widget_flickr_photos .widget_icon { 
-	background-image: url("../images/footer/footer-1/polaroid.PNG");
+	background-image: url("../img/footer/footer-1/polaroid.PNG");
 }
 
 .flickr_badge_image {
@@ -5057,13 +5057,13 @@ iframe {
 }
 
 .widget_mc4wp_widget .widget_icon { 
-	background-image: url("../images/footer/footer-1/plane.PNG");
+	background-image: url("../img/footer/footer-1/plane.PNG");
 }
 
 /* Widgets >> Working Hours */
 
 .widget_workinghours .widget_icon { 
-	background-image: url("../images/footer/footer-1/calendar.PNG");
+	background-image: url("../img/footer/footer-1/calendar.PNG");
 }
 
 .widget_workinghours p { 
@@ -5134,7 +5134,7 @@ iframe {
 }
 
 .links-list li { 
-	background-image: url("../images/header/header-5/polygon-icon.png"); 
+	background-image: url("../img/header/header-5/polygon-icon.png"); 
 	background-position: left 8px; 
 	background-repeat: no-repeat; 
 	line-height: 35px; 
@@ -6071,11 +6071,11 @@ html[xmlns] .slides {
 }
 
 .widget_social_icons .widget_icon {
-	background-image: url("../images/getin-touch-icon.png");
+	background-image: url("../img/getin-touch-icon.png");
 }
 
 .widget_categories .widget_icon {
-	background-image: url("../images/category-icon.png");
+	background-image: url("../img/category-icon.png");
 }
 /* ## Widget Latest Post ## */
 .widget_latest_post ul {
@@ -6128,7 +6128,7 @@ html[xmlns] .slides {
 	position: relative;
 }
 .widget_search .search-icon {	
-	background-image: url("../images/blog/search-icon.png");
+	background-image: url("../img/blog/search-icon.png");
     background-position: center center;
     background-repeat: no-repeat;
 	background-color: #000;
@@ -6224,7 +6224,7 @@ html[xmlns] .slides {
 	margin-top: 0;
 }
 .leave-comment h3 {
-	background-image: url("../images/blog/comment-icon.png");
+	background-image: url("../img/blog/comment-icon.png");
 }
 .comment-area h3, 
 .leave-comment h3 {
@@ -6362,7 +6362,7 @@ html[xmlns] .slides {
 }
 
 .comment-area h3 {
-	background-image: url("../images/blog/leave-reply.png");
+	background-image: url("../img/blog/leave-reply.png");
 }
 
 .comment-form [class*="col-md-"] {

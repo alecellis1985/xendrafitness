@@ -24,7 +24,7 @@
         /* Trainer Single Template - Loading Circle --/ */
 
         /* /-- Event - Window Load */
-        $(window).load(function ()
+        /*$(window).load(function ()
         {
             $('.flexslider').flexslider(
                     {
@@ -32,13 +32,17 @@
                         controlNav: "thumbnails"
                     });
 
-        });
+        });*/
         /* Event - Window Load --/ */
 
         /* /-- Event - Document Ready */
         $(document).ready(function ($)
         {
-            
+            $('.flexslider').flexslider(
+                    {
+                        animation: "fade",
+                        controlNav: "thumbnails"
+                    });
              
             /* $('.timeline-item.timeline-odd .timeline-panel').each(function ()
              {
@@ -376,7 +380,7 @@
              });*/
 
             /* Content Box 1 */
-            /*var owl_cntbox = $("#owl-cntbox");
+            var owl_cntbox = $("#owl-cntbox");
             owl_cntbox.owlCarousel(
                     {
                         itemsCustom: [
@@ -390,10 +394,10 @@
                             [1600, 4],
                             [1900, 4]
                         ]
-                    });*/
+                    });
 
             /* Training Programs */
-            /*var owl_training_programs = $("#owl-training-programs");
+            var owl_training_programs = $("#owl-training-programs");
             owl_training_programs.owlCarousel(
                     {
                         navigation: true, // Show next and prev buttons
@@ -409,7 +413,7 @@
                             [1600, 4],
                             [1900, 4]
                         ]
-                    });*/
+                    });
 
             /* Css class in Menu */
             /*$('.primary-navigation .navbar-nav > li a, .primary-navigation .dropdown-menu li a').html(function (i, html)
