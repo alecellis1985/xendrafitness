@@ -1,14 +1,7 @@
-/*
-	Media :
-		## min-width: 1450 and max-width: 1919px
-		## min-width: 1750
-		## min-width: 1450 and max-width: 1749px
-		## min-width: 1201px and max-width: 1749px
-		## min-width: 1201px and max-width: 1449px
-		## min-width: 992px and max-width: 1200px
-		## min-width: 768px and max-width: 991px
-		## min-width: 319px and max-width: 767px
-*/
+/*!
+ * walonga walonga
+ * pinocho loco
+ *//*! molukutuku */
 @media only screen and (min-width: 1750px) and (max-width: 9999px)
 {
 	.slider-layer { min-height: 735px; }
