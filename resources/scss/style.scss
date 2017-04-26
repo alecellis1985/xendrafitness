@@ -1,11 +1,7 @@
-/*
-  Project:		Hermes
-  Version:	    1.0
-  Create Date:	09/0/2014
-  Last change:	09/20/2014
-  Primary use:	Multi-Purpose, Business, Portfolio
+/* 
+    Created on : Apr 25, 2017, 11:10:33 PM
+    Author     : Alexander
 */
-
 /*------------------------------------------------------------------
 [TABLE OF CONTENTS]
     1. Global Styles	
@@ -68,6 +64,8 @@
 ## 1. Global Styles ## 
 ------------------------------------*/
 
+$fuchsia: #ff509b;
+
 body {
   max-width: 1920px;
   margin: 0 auto !important;
@@ -95,7 +93,7 @@ iframe {
 .btn {
   text-transform:uppercase;
   font-weight:400; 
-  color:#ED3C84; 
+  color:$fuchsia; 
   background-color:transparent; 
   font-size:14px; 
   line-height:27px; 
@@ -464,7 +462,7 @@ iframe {
 .header-4 .primary-navigation .navbar-nav li.active,
 .header-4 .primary-navigation .navbar-nav li.active a {
   background-color: transparent;
-  color: #ED3C84;
+  color: $fuchsia;
 }
 
 .header-4 .primary-navigation .navbar-nav li.active a .black {
@@ -481,7 +479,7 @@ iframe {
 }
 
 .header-4 .social-icons a:hover i {
-  color: #ED3C84; 
+  color: $fuchsia; 
 }
 
 .header-4 .primary-navigation .dropdown.open a { 
@@ -491,19 +489,19 @@ iframe {
 .header-5 .primary-navigation .navbar-nav li.active,
 .header-5 .primary-navigation .navbar-nav li.active a {
   background-color: transparent;
-  color: #ED3C84;
+  color: $fuchsia;
 }
 
 .header-5 .primary-navigation .navbar-nav li.active .black ,
 .header-5 .primary-navigation .navbar-nav li.active a {
   background-color: transparent;
-  color: #ED3C84;
+  color: $fuchsia;
 }
 
 .header-4 .primary-navigation .navbar-nav li a:hover,
 .header-5 .primary-navigation .navbar-nav li a:hover {
   background-color: transparent;
-  color: #ED3C84;
+  color: $fuchsia;
 }
 
 /* logo */
@@ -741,13 +739,13 @@ iframe {
 }
 
 .slider-content .slide-heading { 
-  color:#ED3C84; 
+  color:$fuchsia; 
   font-weight: 200; 
   font-size:60px; 
 }
 
 .slider-content .slide-heading a { 
-  color:#ED3C84; 
+  color:$fuchsia; 
 }
 
 .slider-content .slide-heading a:hover, 
@@ -773,7 +771,7 @@ iframe {
 .slider-content .person { 
   display: inline-block;
   width: 100%; 
-  color:#ED3C84; 
+  color:$fuchsia; 
   font-weight: 700; 
   font-size:20px; 
   text-transform: uppercase; 
@@ -911,7 +909,7 @@ iframe {
 }
 
 .content-box-title { 
-  background-color: #ED3C84; 
+  background-color: $fuchsia; 
   padding: 10px 5px; 
   text-align: center; 
   color:#121627; 
@@ -928,7 +926,7 @@ iframe {
 }
 
 .content-box-detail:hover { 
-  background-color: #ED3C84; 
+  background-color: $fuchsia; 
 }
 
 .content-box-detail:hover > img { 
@@ -1101,7 +1099,7 @@ iframe {
 /* ## 2.3.2. Call to Action ## */
 
 .call-to-action { 
-  background-color: #ED3C84; 
+  background-color: $fuchsia; 
   color: #41485c; 
   font-size: 30px; 
   font-weight: 300; 
@@ -1214,7 +1212,7 @@ iframe {
 .content-box-style2 .owl-theme .owl-controls .owl-page.active span { 
   margin-bottom: 1px; 
   background: none repeat scroll 0 0 #000; 
-  border: 2px solid #ED3C84; 
+  border: 2px solid $fuchsia; 
   height: 9px; 
   width: 9px; 
 }
@@ -1318,7 +1316,7 @@ iframe {
 
 .header3-thumbnail-carousel .flex-active h3 { 
   opacity: 1; 
-  color: #ED3C84; 
+  color: $fuchsia; 
 }
 
 .header3-thumbnail-carousel .flex-active img { 
@@ -1331,7 +1329,7 @@ iframe {
 
 .header3-thumbnail-carousel .flex-active { 
   opacity: 1; 
-  border: 2px solid #ED3C84; 
+  border: 2px solid $fuchsia; 
   background-image: url("../img/header/header-3/transparent-layer.png"); 
 }
 
@@ -1354,7 +1352,7 @@ iframe {
 .header3-image-slider .slide-content h1 { 
   font-weight: 200; 
   font-size: 60px; 
-  color : #ED3C84; 
+  color : $fuchsia; 
 }
 
 .header3-image-slider .slide-content span { 
@@ -1404,7 +1402,7 @@ iframe {
   height: 8px; 
   width: 8px; 
   background-color: transparent; 
-  border: 2px solid #ED3C84; 
+  border: 2px solid $fuchsia; 
 }
 
 .header3-image-slider .flex-control-paging li a { 
@@ -1621,7 +1619,7 @@ iframe {
 
 .header-4 .navbar-nav li a .black { 
   text-transform: lowercase;
-  color: #ED3C84; 
+  color: $fuchsia; 
 }
 
 .header-4 .navbar-nav .dropdown.open .black { 
@@ -1836,7 +1834,7 @@ iframe {
 
 .header-4 .app-notification { 
   margin-left: 60px; 
-  background-color: #ED3C84; 
+  background-color: $fuchsia; 
   bottom: 60px; 
   z-index: 2; 
   height: 60px; 
@@ -1871,7 +1869,7 @@ iframe {
 }
 
 .header-4 .app-notification .close { 
-  background-color: #ED3C84; 
+  background-color: $fuchsia; 
   margin-right: -25px; 
   margin-top: -25px; 
   color: #41485c; 
@@ -1896,7 +1894,7 @@ iframe {
 
 .header-5 .logo-left { 
   width: 250px; 
-  border: 1px solid #ED3C84; 
+  border: 1px solid $fuchsia; 
   float: none; 
   height: auto; 
   left: 0; 
@@ -1936,12 +1934,12 @@ iframe {
 
 .header-5 .primary-navigation .navbar-nav > li > a:hover,
 .header-5 .primary-navigation .navbar-nav > li > a:focus {
-  color: #ED3C84; 
+  color: $fuchsia; 
   background-color: transparent;
 }
 
 .header-5 .primary-navigation .navbar-nav > li > a .black { 
-  color: #ED3C84; 
+  color: $fuchsia; 
 }
 
 .header-5 .primary-navigation .navbar-nav > li > a:hover .black { 
@@ -1999,7 +1997,7 @@ iframe {
 
 .header-5 .slide-content h1 {
   font-size: 30px;
-  color: #ED3C84; 
+  color: $fuchsia; 
   text-transform: uppercase; 
   font-weight: 900; 
 }
@@ -2022,7 +2020,7 @@ iframe {
 .header-5 .slides-navigation .slide-next { 
   outline:0; 
   font-weight: 900; 
-  color: #ED3C84; 
+  color: $fuchsia; 
   font-size: 18px; 
   text-transform: uppercase; 
   width: 300px; 
@@ -2114,7 +2112,7 @@ iframe {
 }
 
 .header-5 .page-scroll a:hover span { 
-  color: #ED3C84;
+  color: $fuchsia;
 }
 
 .header-5 .page-scroll-icon,
@@ -2174,7 +2172,7 @@ iframe {
 .slide-content-left h1 { 
   margin-bottom: 0; 
   margin-top: 0;
-  color: #ED3C84; 
+  color: $fuchsia; 
   font-size: 60px; 
   font-weight: 200; 
 }
@@ -2330,7 +2328,7 @@ iframe {
 }
 
 .content-box-desc .btn-hermes { 
-  background-color: #ED3C84; 
+  background-color: $fuchsia; 
   border: 0 none; 
   color: #292c3a; 
   display: block; 
@@ -2365,7 +2363,7 @@ iframe {
 }
 
 .trainer-title { 
-  color: #ED3C84; 
+  color: $fuchsia; 
   font-size: 36px; 
   font-weight: 200; 
   text-align: center;
@@ -2494,7 +2492,7 @@ iframe {
 }
 
 .upcoming-courses .section-title b { 
-  color: #ED3C84; 
+  color: $fuchsia; 
   display: inline; 
   font-weight: normal; 
   text-transform: lowercase;
@@ -2524,7 +2522,7 @@ iframe {
 }
 
 .classes-info-title a:hover {
-  color: #ED3C84; 
+  color: $fuchsia; 
   text-decoration: none;
 }
 
@@ -2537,7 +2535,7 @@ iframe {
 }
 
 .classes-description b { 
-  color: #ED3C84; 
+  color: $fuchsia; 
   text-transform : uppercase;
 }
 
@@ -2546,14 +2544,14 @@ iframe {
 }
 
 .classes-description .glyphicon { 
-  color: #ED3C84; 
+  color: $fuchsia; 
   font-size: 14px;
   margin-right: 3px; 
 }
 
 .classes-description .style-bold, 
 .classes-description .style-light {
-  color: #ED3C84;
+  color: $fuchsia;
 }
 
 .classes-info-description.pull-right { 
@@ -2678,7 +2676,7 @@ iframe {
 }
 
 .timeline-item .color-light { 
-  color: #ED3C84;
+  color: $fuchsia;
 }
 
 .timeline-item .color-normal.style-bold { 
@@ -2702,7 +2700,7 @@ iframe {
 
 .timeline-item .classes-info-title a:hover,
 .timeline-item .classes-info-title a:hover .color-normal.style-bold {
-  color: #ED3C84;
+  color: $fuchsia;
 }
 
 .timeline-item .devide-by-sign { 
@@ -2711,11 +2709,11 @@ iframe {
 }
 
 .timeline-item .style-bold { 
-  color: #ED3C84; 
+  color: $fuchsia; 
 }
 
 .timeline-item .style-light { 
-  color: #ED3C84; 
+  color: $fuchsia; 
 }
 
 .timeline-panel { 
@@ -2789,7 +2787,7 @@ iframe {
 }
 
 .classes-info-title b { 
-  color: #ED3C84;
+  color: $fuchsia;
 }
 
 .timeline-odd .timeline-badge { 
@@ -2911,7 +2909,7 @@ iframe {
 }
 
 .events-list-inner:hover { 
-  background-color: #ED3C84;
+  background-color: $fuchsia;
 }
 
 .events-list-inner:hover a { 
@@ -3032,7 +3030,7 @@ iframe {
   font-weight: 900;
   text-transform: uppercase;
   height: 110px;
-  background-color: #ED3C84;
+  background-color: $fuchsia;
 }
 
 .today-events a { 
@@ -3121,11 +3119,11 @@ iframe {
 }
 
 .responsive-calendar > .days .day:nth-child(7n+1) a { 
-  color: #ED3C84; 
+  color: $fuchsia; 
 }
 
 .responsive-calendar > .day-headers .day:nth-child(7n+1) { 
-  color: #ED3C84;
+  color: $fuchsia;
 }
 
 .responsive-calendar .day.header { 
@@ -3148,14 +3146,14 @@ iframe {
 .responsive-calendar .day.active a:hover, 
 .responsive-calendar .day.today a:hover { 
   cursor: pointer; 
-  background-color: #ED3C84; 
+  background-color: $fuchsia; 
   color: #000; 
 }
 
 .responsive-calendar .day.today a { 
   border: 0 none; 
   color: #41485c; 
-  background-color: #ED3C84;
+  background-color: $fuchsia;
 }
 
 .responsive-calendar .day .badge { 
@@ -3231,14 +3229,14 @@ iframe {
 /* Programs Title */
 
 .program-title { 
-  color: #ED3C84; 
+  color: $fuchsia; 
   font-size: 36px; 
   font-weight: 200; 
   text-align: center; 
 }
 
 .program-title a { 
-  color: #ED3C84;
+  color: $fuchsia;
 }
 
 .program-title a:hover { 
@@ -3308,12 +3306,12 @@ iframe {
 }
 
 .programs-rate .style-bold { 
-  color: #ED3C84;
+  color: $fuchsia;
 }
 
 .programs-rate .style-super { 
   font-size: 24px;
-  color: #ED3C84; 
+  color: $fuchsia; 
   font-weight: 200;
 }
 
@@ -3341,7 +3339,7 @@ iframe {
 /* Programs Button */
 
 .training-programs .btn-hermes { 
-  background-color: #ED3C84; 
+  background-color: $fuchsia; 
   border: 0 none; 
   color: #292c3a;
   display: block; 
@@ -3588,7 +3586,7 @@ iframe {
   right: 0;
   height: 10px; 
   width: 50.1%; 
-  background-color: #ED3C84; 
+  background-color: $fuchsia; 
   -webkit-transform: skew(0deg, 30deg); 
   -moz-transform: skew(0deg, 30deg); 
   -ms-transform: skew(0deg, 30deg); 
@@ -3604,7 +3602,7 @@ iframe {
   right:15px; 
   height: 10px; 
   width: 50.1%; 
-  background-color: #ED3C84; 
+  background-color: $fuchsia; 
   -webkit-transform: skew(0deg, -30deg);
   -moz-transform: skew(0deg, -30deg); 
   -ms-transform: skew(0deg, -30deg); 
@@ -3613,8 +3611,8 @@ iframe {
 }
 
 .chevron-bottom {
-  border-left: 145px solid #ED3C84;
-  border-right: 145px solid #ED3C84; 
+  border-left: 145px solid $fuchsia;
+  border-right: 145px solid $fuchsia; 
   border-top: 83px solid transparent; 
   height: 92px; 
   margin-top: -77px; 
@@ -3629,7 +3627,7 @@ iframe {
 }
 
 .trainer-social-profile li { 
-  background-color: #ED3C84; 
+  background-color: $fuchsia; 
   border-radius: 100%; 
   display: inline-block; 
   height: 30px; 
@@ -3705,7 +3703,7 @@ iframe {
 }
 
 .trainer-item:hover .trainer-detail { 
-  background-color: #ED3C84; 
+  background-color: $fuchsia; 
   transition: opacity 0.5s ease-in-out 0s;
 }
 
@@ -3910,7 +3908,7 @@ iframe {
 .pricing-table .plan-item:hover {
   height: 536px;
   z-index: 1;
-  border: 1px solid #ED3C84;
+  border: 1px solid $fuchsia;
   -webkit-transform: scale(1.00) translateY(-15px);
   -moz-transform: scale(1.00) translateY(-15px);
   -ms-transform: scale(1.00) translateY(-15px);
@@ -3919,7 +3917,7 @@ iframe {
 }
 
 .pricing-table .plan-item.active {	
-  border: 1px solid #ED3C84;
+  border: 1px solid $fuchsia;
   z-index: 1;
   -webkit-transform: scale(1.00) translateY(-15px);
   -moz-transform: scale(1.00) translateY(-15px);
@@ -3949,11 +3947,11 @@ iframe {
 
 .plan-item:hover .plan-header {
   color: #41485c; 
-  background-color: #ED3C84;
+  background-color: $fuchsia;
 }
 
 .plan-item:hover .plan-description { 
-  background-color: #ED3C84;
+  background-color: $fuchsia;
 }
 
 .plan-item:hover .plan-features { 
@@ -4003,11 +4001,11 @@ iframe {
 
 .plan-item.active .plan-header { 
   color: #41485c; 
-  background-color: #ED3C84;
+  background-color: $fuchsia;
 }
 
 .plan-item.active .plan-description {
-  background-color: #ED3C84;
+  background-color: $fuchsia;
 }
 
 .plan-item.active .plan-features {
@@ -4076,7 +4074,7 @@ iframe {
 
 .contact-center { 
   z-index: 1;
-  background-color : #ED3C84;
+  background-color : $fuchsia;
 }
 
 .contact .col-md-12 { 
@@ -4220,11 +4218,11 @@ iframe {
 }
 
 .about-trainer h2 .style-light { 
-  color: #ED3C84; 
+  color: $fuchsia; 
 }
 
 .skill-item { 
-  color: #ED3C84; 
+  color: $fuchsia; 
   font-size: 48px; 
   font-weight: 900; 
   display: inline-block; 
@@ -4307,7 +4305,7 @@ iframe {
 }
 
 .trainer-contact-detail h2 { 
-  color: #ED3C84; 
+  color: $fuchsia; 
   margin-bottom: 10px;
 }
 
@@ -4322,7 +4320,7 @@ iframe {
 .trainer-about-content h2 { 
   margin-top: 75px; 
   margin-bottom: 10px; 
-  color: #ED3C84; 
+  color: $fuchsia; 
 }
 
 .trainer-about-content h2 .style-light { 
@@ -4405,11 +4403,11 @@ iframe {
 
 .skillbar-style-1 .skillbar-title,
 .skillbar-style-1 .skill-bar-percent {
-  color: #ED3C84;
+  color: $fuchsia;
 }
 
 .skillbar-style-1 .skillbar-bar {
-  background-color: #ED3C84;
+  background-color: $fuchsia;
 }
 
 .skillbar-style-2 .skillbar-title,
@@ -4497,12 +4495,12 @@ iframe {
   color: #fff; 
 }
 .all-trainer-left-inner .current-trainer-name a:hover { 
-  color: #ED3C84; 
+  color: $fuchsia; 
 }
 
 .all-trainers-left { 
   padding-left: 165px; 
-  background-color: #ED3C84;
+  background-color: $fuchsia;
 }
 
 .all-trainers-left:after { 
@@ -4519,7 +4517,7 @@ iframe {
 .all-trainers-right { 
   text-align: right; 
   padding-right: 165px; 
-  background-color: #ED3C84;
+  background-color: $fuchsia;
 }
 
 .all-trainers-right:before {
@@ -4553,12 +4551,12 @@ iframe {
 .footer-section h2, 
 .footer-section h4 {
   font-size: 24px;
-  color:#ED3C84;
+  color:$fuchsia;
 }
 
 .copyright-notice { 
   border-top: 1px solid #fff; 
-  color: #ED3C84; 
+  color: $fuchsia; 
   font-size: 18px;
   font-weight: 300; 
   padding: 25px 0 24px;
@@ -4627,13 +4625,13 @@ iframe {
 }
 
 .grid-1 span:last-of-type { 
-  color: #ED3C84; 
+  color: $fuchsia; 
   font-size: 30px; 
   font-weight: 300;
 }
 
 .grid-1 .digit-class { 
-  color: #ED3C84; 
+  color: $fuchsia; 
   font-size: 36px; 
   font-weight: 900;
 }
@@ -4678,7 +4676,7 @@ iframe {
 }
 
 .grid-3 .block-right h1 { 
-  color: #ED3C84; 
+  color: $fuchsia; 
   font-size: 36px; 
   font-weight: 200; 
   line-height: 43px;
@@ -4711,7 +4709,7 @@ iframe {
 }
 
 .grid-3 .block-right .app-list li span { 
-  color: #ED3C84; 
+  color: $fuchsia; 
   font-size: 18px;
   text-decoration: underline;
   font-weight: 300; 
@@ -4719,7 +4717,7 @@ iframe {
 }
 
 .grid-3 .block-right .app-list li a {
-  color: #ED3C84;
+  color: $fuchsia;
 }
 
 .grid-3 .block-right .app-list li a:hover span {
@@ -4760,7 +4758,7 @@ iframe {
 
 .footer-2 .copyright-notice a {
   text-decoration: underline; 
-  color: #ED3C84;
+  color: $fuchsia;
 }
 
 .footer-2 .copyright-notice a:hover { 
@@ -4819,11 +4817,11 @@ iframe {
 }
 
 .footer-3 a:hover { 
-  color: #ED3C84;
+  color: $fuchsia;
 }
 
 .footer-3 .search-form input[type="submit"] { 
-  border-color: #ED3C84;
+  border-color: $fuchsia;
 }
 
 .footer-3 .search-form {
@@ -4919,7 +4917,7 @@ iframe {
 }
 
 .widget-title { 
-  color:#ED3C84; 
+  color:$fuchsia; 
   margin: 0; 
   font-weight: 900; 
   text-transform: uppercase; 
@@ -5114,7 +5112,7 @@ iframe {
 
 .faq-accordion .panel-heading:before {
   border-bottom: 8px solid transparent;
-  border-left: 8px solid #ED3C84; 
+  border-left: 8px solid $fuchsia; 
   border-top: 8px solid transparent; 
   content: ""; 
   left: 0; 
@@ -5122,7 +5120,7 @@ iframe {
 }
 
 .widget_faqs .faq-accordion .panel-collapse .panel-body { 
-  color:#ED3C84; 
+  color:$fuchsia; 
   font-size: 16px; 
   padding-top: 5px;  
   padding-bottom: 7px;
@@ -5157,7 +5155,7 @@ iframe {
 }
 
 .links-list li a:hover { 
-  color: #ED3C84;
+  color: $fuchsia;
 }
 
 /* ## Widgets Block -// ## */
@@ -5757,7 +5755,7 @@ html[xmlns] .slides {
   text-align: left;
   font-weight: 100;
   position: absolute;
-  color: #ED3C84;
+  color: $fuchsia;
   left: 163px;
   bottom: 147px;
   font-size: 60px;
@@ -5791,7 +5789,7 @@ html[xmlns] .slides {
 .blog-main .blog-list-left .column-title:before {
   width: 42.84%;
   height: 70px;
-  border-top: 70px solid #ED3C84; 
+  border-top: 70px solid $fuchsia; 
   border-right: 70px solid transparent;
   content: "";
   position: absolute;
@@ -5800,7 +5798,7 @@ html[xmlns] .slides {
 .blog-main .blog-list-left .column-title:after {
   width: 37.98%;
   height: 70px;
-  border-bottom: 70px solid #ED3C84; 
+  border-bottom: 70px solid $fuchsia; 
   border-left: 70px solid transparent;
   content: "";
   top: 0;
@@ -5831,7 +5829,7 @@ html[xmlns] .slides {
 
 /* ## Entry Date ## */
 .entry-date {
-  border: 1px solid #ED3C84;
+  border: 1px solid $fuchsia;
   display: inline-block;
   height: 68px;
   width: 90px;
@@ -5840,7 +5838,7 @@ html[xmlns] .slides {
 }
 .entry-date .date {
   display: block;
-  color: #ED3C84;
+  color: $fuchsia;
   font-weight: bold;
   font-size: 40px;
   line-height: 0.6;
@@ -5864,11 +5862,11 @@ html[xmlns] .slides {
 /* Entry Meta */
 .entry-meta i {
   font-size: 15px;
-  color: #ED3C84;
+  color: $fuchsia;
   transform: rotate(90deg);
   margin-right: 5px;
 }
-.entry-meta [rel="tag"] { color: #ED3C84; font-style: italic; font-size: 20px; margin-right: 2px; }
+.entry-meta [rel="tag"] { color: $fuchsia; font-style: italic; font-size: 20px; margin-right: 2px; }
 .entry-meta [rel="tag"]:before { content: "#"; padding-right: 3px; }
 .entry-meta [rel="tag"]:hover { color: #fff; text-decoration: none; }
 .entry-meta [rel="tag"]:after { content: ","; padding-left: 0px; padding-right: 0px; }
@@ -5907,7 +5905,7 @@ html[xmlns] .slides {
   display: inline-block;
   text-align: center;
   text-transform: uppercase;
-  border: 1px solid #ED3C84;
+  border: 1px solid $fuchsia;
   font-size: 18px;
   color: #fff;
   font-weight: 100;
@@ -6103,7 +6101,7 @@ html[xmlns] .slides {
   padding-right: 0;
 }
 .widget_latest_post ul li a {
-  color: #ED3C84;
+  color: $fuchsia;
   font-size: 18px;
   margin: 0;
 }
@@ -6176,7 +6174,7 @@ html[xmlns] .slides {
   display: inline-block;
 }
 .widget_social_icons li a { 
-  border: 1px solid #ED3C84; 
+  border: 1px solid $fuchsia; 
   height: 92px; 
   line-height: 92px; 
   list-style: outside none none; 
@@ -6213,7 +6211,7 @@ html[xmlns] .slides {
   background-image: none;
 }
 /* Widget Categories */
-.widget_categories > ul { color: #ED3C84; line-height: 25px; padding-left:0; list-style: none; }
+.widget_categories > ul { color: $fuchsia; line-height: 25px; padding-left:0; list-style: none; }
 .widget_categories > ul li {
   border-bottom: 1px solid #484750;
   padding-bottom: 8px;
@@ -6222,7 +6220,7 @@ html[xmlns] .slides {
 .widget_categories > ul li:last-child {
   border-bottom: none;
 }
-.widget_categories > ul a { color: #ED3C84; font-size: 18px; }
+.widget_categories > ul a { color: $fuchsia; font-size: 18px; }
 .widget_categories > ul a:hover { color: #fff; text-decoration: none; }
 
 
