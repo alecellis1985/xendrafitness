@@ -3833,15 +3833,16 @@ iframe {
 }
 
 .plan-pricing:before {
-  background-image: url("../img/price-table/icon.png"); 
-  background-repeat: no-repeat; 
-  content: ""; 
-  display: inline-block; 
-  position: absolute; 
-  left: 46px; 
-  top: 0; 
-  height: 14px; 
-  width: 21px;
+  position: absolute;
+  width: 0;
+  height: 0!important;
+  border-style: solid;
+  border-width: 15px 14px 0 15px;
+  border-color: #abc503 transparent transparent transparent;
+}
+
+.plan-item:hover .plan-pricing:before,.plan-item.active .plan-pricing:before { 
+  border-color: #ff509b transparent transparent transparent;
 }
 
 .plan-pricing .style-super {
@@ -3936,11 +3937,6 @@ iframe {
   color: #fff; 
 }
 
-.plan-item:hover .plan-pricing:before { 
-  transform: none; 
-  height: 130px;
-}
-
 .plan-item:hover .plan-pricing .style-bold {
   color:#fff;
 }
@@ -3988,11 +3984,6 @@ iframe {
 .plan-item.active .plan-pricing { 
   background-color: #41485c; 
   color: #fff; 
-}
-
-.plan-item.active .plan-pricing:before { 
-  transform: none; 
-  height: 130px;
 }
 
 .plan-item.active .plan-pricing .style-bold { 
