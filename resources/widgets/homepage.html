@@ -345,42 +345,43 @@
 </div><!-- /.container-fluid -->
 
 <div id="upcoming-courses" class="upcoming-courses ow-fluid-section container-fluid">
-  <h2 class="section-title"> <b>siguientes</b> classes hoy: </h2>
+  <h2 class="section-title"> <b>classes</b> de hoy: </h2>
   <div class="ow-fixed-section container">
     <ul class="classes-description">
 
-      <li class="col-md-6">
-        <h3 class="pull-left classes-info-title"> <a href="#">cardio <span class="style-light">X</span> <span class="style-super">TM</span></a> </h3>
-        <p class="pull-right classes-info-description"> <i class="glyphicon glyphicon-time"></i> 14:00 - 14:45 <span> with Kate Johnson </span> </p>
+      <li class="col-md-6" ng-repeat='daysTime in vm.daysActions[vm.currentActiveDate].hours track by $index'>
+        <h3 class="pull-left classes-info-title"> 
+          <a href="#">{{vm.daysActions[vm.currentActiveDate].actions[$index]}}<span class="style-light"></span> <span class="style-super"></span></a> </h3>
+        <p class="pull-right classes-info-description"> <i class="glyphicon glyphicon-time"></i> {{daysTime}} - {{vm.getEndClass(daysTime)}} <span> with Kate Johnson </span> </p>
         <hr/>
       </li>
 
-
-      <li class="col-md-6">
-        <h3 class="pull-left classes-info-title"> <a href="#">muscle build <span class="style-bold">pro</span> <span class="style-super">TM</span></a> </h3>
-        <p class="pull-right classes-info-description"> <i class="glyphicon glyphicon-time"></i> 14:00 - 14:45 <span> with Kate Johnson </span> </p>
-        <hr/>
-      </li>
-      <li class="col-md-6">
-        <h3 class="pull-left classes-info-title col-md-8"> <a href="#">pilates</a> </h3>
-        <p class="pull-right classes-info-description col-md-4"> <i class="glyphicon glyphicon-time"></i> 15:00 - 15:50 <span> with Maya Toitovna </span> </p>
-        <hr/>
-      </li>
-      <li class="col-md-6">
-        <h3 class="pull-left classes-info-title col-md-8"> <a href="#">yoga beginners</a> </h3>
-        <p class="pull-right classes-info-description col-md-4"> <i class="glyphicon glyphicon-time"></i> 14:00 - 14:45 <span> with Maya Toitovna </span> </p>
-        <hr/>
-      </li>
-      <li class="col-md-6">
-        <h3 class="pull-left classes-info-title col-md-8"> <a href="#">zumba</a> </h3>
-        <p class="pull-right classes-info-description col-md-4"> <i class="glyphicon glyphicon-time"></i> 16:00 - 16:50 <span> with Maya Toitovna </span> </p>
-        <hr/>
-      </li>
-      <li class="col-md-6">
-        <h3 class="pull-left classes-info-title col-md-8"> <a href="#">aerobic</a> </h3>
-        <p class="pull-right classes-info-description col-md-4"> <i class="glyphicon glyphicon-time"></i> 16:00 - 16:50 <span> with Maya Toitovna </span> </p>
-        <hr/>
-      </li>
+      <!--
+            <li class="col-md-6">
+              <h3 class="pull-left classes-info-title"> <a href="#">muscle build <span class="style-bold">pro</span> <span class="style-super">TM</span></a> </h3>
+              <p class="pull-right classes-info-description"> <i class="glyphicon glyphicon-time"></i> 14:00 - 14:45 <span> with Kate Johnson </span> </p>
+              <hr/>
+            </li>
+            <li class="col-md-6">
+              <h3 class="pull-left classes-info-title col-md-8"> <a href="#">pilates</a> </h3>
+              <p class="pull-right classes-info-description col-md-4"> <i class="glyphicon glyphicon-time"></i> 15:00 - 15:50 <span> with Maya Toitovna </span> </p>
+              <hr/>
+            </li>
+            <li class="col-md-6">
+              <h3 class="pull-left classes-info-title col-md-8"> <a href="#">yoga beginners</a> </h3>
+              <p class="pull-right classes-info-description col-md-4"> <i class="glyphicon glyphicon-time"></i> 14:00 - 14:45 <span> with Maya Toitovna </span> </p>
+              <hr/>
+            </li>
+            <li class="col-md-6">
+              <h3 class="pull-left classes-info-title col-md-8"> <a href="#">zumba</a> </h3>
+              <p class="pull-right classes-info-description col-md-4"> <i class="glyphicon glyphicon-time"></i> 16:00 - 16:50 <span> with Maya Toitovna </span> </p>
+              <hr/>
+            </li>
+            <li class="col-md-6">
+              <h3 class="pull-left classes-info-title col-md-8"> <a href="#">aerobic</a> </h3>
+              <p class="pull-right classes-info-description col-md-4"> <i class="glyphicon glyphicon-time"></i> 16:00 - 16:50 <span> with Maya Toitovna </span> </p>
+              <hr/>
+            </li>-->
     </ul>
   </div><!-- /.container -->
 </div><!-- /.container-fluid -->
@@ -861,7 +862,7 @@
 <div id="our-trainer" class="our-trainer ow-fluid-section container-fluid">
   <div class="section-header">
     <div class="section-header-left col-md-5"></div>
-    <h2 class="section-title col-md-2"> <span class="seperate-title">conoce nuestros</span> <b>entrenadores</b> </h2>
+    <h2 class="section-title col-md-2"> <span class="seperate-title">nuestros</span> <b>entrenadores</b> </h2>
     <div class="section-header-right col-md-5"></div>
   </div>
   <div class="ow-fixed-section container">
@@ -994,7 +995,7 @@
         <div class="plan-header">
           <h2> selecciona tu subscripción</h2>
           <hr/>
-          <span class="plan-sub-title"> Por más info </span>
+          <span class="plan-sub-title"> Por más información </span>
           <span class="call-us"> 098-318-420 </span>
         </div>
         <ul class="plan-features">
@@ -1081,16 +1082,16 @@
       <div class="form-group">
         <div class="col-md-12 col-lg-6 contact-input">
           <label class="sr-only" for="input_name">Nombre</label>
-          <input type="text" class="form-control" id="input_name" name="contact-name" placeholder="What’s your name?" required />
+          <input type="text" class="form-control" id="input_name" name="contact-name" placeholder="Cómo es tu nombre?" required />
         </div>
         <div class="col-md-12 col-lg-6 contact-input">
           <label class="sr-only" for="input_email">Email</label>
-          <input type="email" class="form-control" id="input_email" name="contact-email" placeholder="And e-mail?" required />
+          <input type="email" class="form-control" id="input_email" name="contact-email" placeholder="Tu e-mail?" required />
         </div>
       </div>
       <div class="col-md-12 contact-textarea">
         <label class="sr-only" for="textarea_message">Mensaje</label>
-        <textarea class="form-control" id="textarea_message" name="contact-message" placeholder="What would you like to tell us?" rows="7" required ></textarea>
+        <textarea class="form-control" id="textarea_message" name="contact-message" placeholder="Que nos queres preguntar?" rows="7" required ></textarea>
       </div>
       <div class="form-group">
         <div class="col-md-12">

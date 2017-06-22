@@ -39,10 +39,16 @@
     vm.getAmOrPm = getAmOrPm;
     vm.getHr = getHr;
     vm.getMinutes = getMinutes;
-    
+    vm.getEndClass = getEndClass;
+
 
     function getAmOrPm(time) {
       return getHr(time) > 12 ? 'PM' : 'AM'
+    }
+
+    function getEndClass(time) {
+      var num = parseInt(getHr(time)) + 1;
+      return num + ':' + getMinutes(time);
     }
 
     function getHr(time) {
